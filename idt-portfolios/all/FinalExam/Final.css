@@ -1,0 +1,15 @@
+body {
+    background-color: #11092c;
+}
+
+.background {
+    height: 900px;
+    width: 1400px;
+    background-color: #150b36;
+    position: absolute;
+    left:14%;
+}
+
+.Header {
+    color: white;
+}

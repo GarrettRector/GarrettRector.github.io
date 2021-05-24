@@ -3,7 +3,6 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <link rel="icon" href="/idt-portfolios/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="/idt-portfolios/main.css">
     <meta http-equiv="refresh"
           content="0.1; url = /idt-portfolios/all/FinalExam/Final.html" />
     <title>Redirecting...</title>
@@ -13,9 +12,9 @@
 
 
 <script>
-    var dots = window.setInterval( function() {
-        var wait = document.getElementById("wait");
-        if ( wait.innerHTML.length > 2 )
+    window.setInterval(function () {
+        const wait = document.getElementById("wait");
+        if (wait.innerHTML.length > 2)
             wait.innerHTML = "";
         else
             wait.innerHTML += ".";

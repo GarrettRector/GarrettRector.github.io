@@ -106,6 +106,10 @@ body {
     color: black;
 }
 
+.mainbutton {
+    font-size: 30px;
+}
+
 
 @keyframes fadein {
     from {

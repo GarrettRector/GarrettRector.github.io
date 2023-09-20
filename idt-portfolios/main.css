@@ -1,0 +1,146 @@
+body {
+    background-color: #11092c;
+}
+
+.name {
+    color: #fefefe;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position:relative;
+    left:-500px;
+    top:400px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.status {
+    color: #fefefe;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position:relative;
+    left:-290px;
+    top:375px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.aboutme {
+    color: #fefefe;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position:relative;
+    top: 335px;
+    left: -360px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.aboutme2 {
+    color: #fefefe;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position:relative;
+    top: 305px;
+    left: -405px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.btn {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 84.37%;
+    left: 24.07%;
+    background-color: transparent;
+    border: none;
+    color: #fefefe;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.btn:hover {
+    background-color: #cecece;
+    color: black;
+}
+
+.button {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 80%;
+    left: 24.07%;
+    background-color: transparent;
+    border: none;
+    color: #fefefe;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.button:hover {
+    background-color: #cecece;
+    color: black;
+}
+
+.mainbutton {
+    font-size: 30px;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
